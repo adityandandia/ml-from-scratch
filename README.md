@@ -10,8 +10,8 @@ before using high-level frameworks.
 | Algorithm | Status | Key Concepts |
 |-----------|--------|--------------|
 | Linear Regression | ✅ Complete | Gradient descent, MSE, weight updates |
-| Logistic Regression |  Complete | Sigmoid, binary cross-entropy, decision boundary |
-| Neural Network | ✅ In Progress | Forward pass, backprop, chain rule |
+| Logistic Regression |✅  Complete | Sigmoid, binary cross-entropy, decision boundary |
+| Neural Network | ✅ Complete | Forward pass, backprop, chain rule |
 
 ## Philosophy
 
