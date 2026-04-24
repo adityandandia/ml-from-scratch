@@ -26,4 +26,7 @@ Each implementation includes:
 ## Stack
 
 - Python 3.x
-- NumPy only (no ML libraries)
+- NumPy (from-scratch implementations)
+- pandas, scikit-learn, imbalanced-learn, xgboost (Tabular ML — final project)
+
+> The first five projects are pure NumPy. Tabular ML uses libraries deliberately — the goal shifts from implementing algorithms to engineering production-ready pipelines.
