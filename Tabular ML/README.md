@@ -7,7 +7,7 @@ End-to-end tabular ML pipeline on the [Kaggle Telco Customer Churn dataset](http
 - [x] Phase 1 — EDA & Data Understanding
 - [x] Phase 2 — Preprocessing Pipeline (ColumnTransformer + sklearn Pipeline)
 - [x] Phase 3 — Baseline Models (LR, DT, RF)
-- [ ] Phase 4 — Class Imbalance (SMOTE, class_weight)
+- [x] Phase 4 — Class Imbalance (SMOTE, class_weight)
 - [ ] Phase 5 — Gradient Boosting (XGBoost / LightGBM + tuning)
 - [ ] Phase 6 — Final Evaluation & Write-up
 
