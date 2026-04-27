@@ -1,7 +1,7 @@
 # ml-from-scratch
 
 Implementing core ML algorithms from scratch using NumPy — no sklearn, no shortcuts.  
-Built as part of a structured ML engineering roadmap to develop deep intuition before using high-level frameworks.
+Built to develop deep intuition before using high-level frameworks. Every implementation starts with the math, not the library.
 
 ## Implementations
 
@@ -12,21 +12,21 @@ Built as part of a structured ML engineering roadmap to develop deep intuition b
 | Neural Network | ✅ Complete | Forward pass, backprop, chain rule |
 | Decision Tree | ✅ Complete | Information gain, Gini impurity, recursive splitting |
 | Random Forest | ✅ Complete | Bagging, bootstrap sampling, feature randomness |
-| Tabular ML (Churn) | 🔄 In Progress | Pipelines, feature engineering, class imbalance, boosting |
-
-> This repo concludes with Tabular ML. Deep learning implementations (CNN and beyond) live in a separate PyTorch-based project series.
+| Tabular ML (Churn) | ✅ Complete | Pipelines, feature engineering, class imbalance, boosting, SHAP |
 
 ## Philosophy
 
+No black boxes. Every project in this series follows the same rule — derive the math, implement it cleanly, then explain it in plain language. The goal was never to use the tools. The goal was to understand what the tools are doing.
+
 Each implementation includes:
-- Derivation of the math before any code
-- Clean NumPy implementation
-- Markdown explanation of intuition and method
+- Mathematical derivation before any code
+- Clean, readable implementation
+- Written explanation of intuition and method
 
 ## Stack
 
 - Python 3.x
-- NumPy (from-scratch implementations)
-- pandas, scikit-learn, imbalanced-learn, xgboost (Tabular ML — final project)
+- NumPy — all from-scratch implementations
+- pandas, scikit-learn, imbalanced-learn, lightgbm, shap — Tabular ML final project only
 
-> The first five projects are pure NumPy. Tabular ML uses libraries deliberately — the goal shifts from implementing algorithms to engineering production-ready pipelines.
+The first five projects are pure NumPy. Tabular ML uses libraries deliberately — the lesson shifts from *how algorithms work* to *how production ML pipelines are engineered*.
